@@ -23,7 +23,7 @@ public class Test8 {
     }
 
     @Test
-    public void test() {
+    public void test8() {
         driver.get("http://practice.cybertekschool.com/");
         driver.findElement(By.linkText("Autocomplete")).click();
         driver.findElement(By.id("myCountry")).sendKeys("United States of America");

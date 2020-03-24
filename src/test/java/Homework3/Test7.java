@@ -23,7 +23,7 @@ public class Test7 {
 
     }
     @Test
-    public void test(){
+    public void test7(){
         driver.get("https://practice-cybertekschool.herokuapp.com/");
         driver.findElement(By.linkText("File Upload")).click();
         BrowserUtils.wait(3);
